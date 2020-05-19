@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Prático - Módulo 1</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <form>
+        <p>
+            (R) Vermelho
+            <input type="range" name="vermelho" id="vermelho" max=255 min=0 value="0" />
+
+            <input type="text" name="vermelho-box" id="vermelho-box" disabled value="0" />
+        </p>
+        <p>
+            (G) Verde
+            <input type="range" name="verde" id="verde" max=255 min=0 value="0" />
+            <input type="text" name="verde-box" id="verde-box" disabled value="0" />
+        </p>
+        <p>
+            (B) Azul
+            <input type="range" name="azul" id="azul" max=255 min=0 value="0" />
+            <input type="text" name="azul-box" id="azul-box" disabled value="0" />
+        </p>
+
+        <div class="cor">
+        </div>
+
+        <script src="./js/script.js"></script>
+    </form>
+
+</body>
+
+</html>
